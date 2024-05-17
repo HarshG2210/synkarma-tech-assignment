@@ -1,6 +1,6 @@
 /* src/TimerForm.css */
 .timer-form {
-  border: 1px solid #45a049;
+  /* border: 1px solid #45a049; */
   display: flex;
   flex-direction: column;
   justify-content: center;
