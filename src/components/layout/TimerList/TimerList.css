@@ -1,0 +1,30 @@
+/* src/TimerList.css */
+.timer-list {
+    width: 100%;
+  }
+  
+  .timer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .timer-info {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

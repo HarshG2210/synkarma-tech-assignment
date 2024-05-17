@@ -1,0 +1,46 @@
+/* src/TimerForm.css */
+.timer-form {
+  border: 1px solid #45a049;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.timer-form label {
+  margin-bottom: 10px;
+}
+
+.timer-form input {
+  margin-bottom: 10px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* width: 100%; */
+}
+
+.timer-form button {
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15%;
+}
+
+.timer-form button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .timer-form button {
+    width: 50%;
+  }
+
+  .timer-form button:hover {
+    background-color: #45a049;
+  }
+}
